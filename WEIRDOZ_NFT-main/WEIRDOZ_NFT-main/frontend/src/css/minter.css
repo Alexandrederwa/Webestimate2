@@ -1,0 +1,192 @@
+.coverMintPage{
+    width: 100%;
+    height: 100%;
+}
+
+.MintPageBackground{
+    background-color: #49fffd;
+}
+
+:root {
+
+  
+    --toastify-toast-width: 30rem;
+    --toastify-toast-background: #fff;
+    --toastify-toast-min-height: 10rem;
+    --toastify-toast-max-height: 800px;
+    --toastify-font-size: 800px;
+}
+
+
+.MintPage{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 100%;
+}
+.gifImg{
+    margin-top : 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    width:30rem;
+    height: 30rem;
+}
+.MintBiggerContainer{
+    width: 100%;
+    background-image: url(../img/WRDZBGPagemint.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1080px !important;
+  } 
+
+.web3Notinstall{
+    text-align: center;
+}
+.paragraphe{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.MintButton{
+    width: 10rem;
+    height: 3rem !important;
+    max-height: none;
+    padding: 9px 16px;
+    border-color: #254cdd;
+    color: #254cdd;
+    background-color: white;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    cursor:pointer;
+}
+@media only screen and (max-width: 480px) and (max-height: 700px){
+    .gifImg {
+        width:15rem;
+        height:15rem;
+    }
+    .content{
+        width: 90%;
+    }
+    
+    .MintButton{
+        width: 15rem;
+        font-size: 1.5rem !important;
+        height: 4rem !important;
+    }
+    .paragraphe{
+        font-size: 1.5rem !important;
+    }
+    .title{
+        font-size: 2rem !important;
+    }
+    .MintBiggerContainer{
+       
+        height: 100% !important;
+        padding-bottom: 5.5rem;
+        /* max-height: 1000px; */
+      } 
+}
+
+/* For smarphone */
+@media only screen and (max-width: 480px)  and (min-height: 701px) {
+    .gifImg {
+        width:20rem;
+        height:20rem;
+    }
+    .content{
+        width: 90%;
+    }
+    
+    .MintButton{
+        width: 15rem;
+        font-size: 2rem !important;
+        height: 6rem !important;
+    }
+    .paragraphe{
+        font-size: 2rem !important;
+    }
+    .title{
+        font-size: 3rem !important;
+    }
+    .MintBiggerContainer{
+       
+        height: 100% !important;
+        padding-bottom: 6rem;
+        /* max-height: 1000px; */
+      } 
+    
+    
+}
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .MintBiggerContainer{
+       
+        height: 100% !important;
+        padding-bottom: 10rem;
+        
+    }
+    .MintButton{
+        width: 20rem;
+        font-size: 3rem !important;
+        height: 6rem !important;
+    }
+    .paragraphe{
+        font-size: 3rem !important;
+    }
+    .title{
+        font-size: 4rem !important;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .MintBiggerContainer{
+       
+        height: 100% !important;
+        padding-bottom: 20rem;
+    } 
+    .MintButton{
+        width: 30rem;
+        font-size: 3rem !important;
+        height: 6rem !important;
+    }
+    .paragraphe{
+        font-size: 3rem !important;
+    }
+    .title{
+        font-size: 4rem !important;
+    }
+    .numberChoice{
+        margin-bottom: 2rem !important;
+    }
+}
+
+@media  (min-width: 1200px) {
+
+    .content{
+        width: 50%;
+    }
+    .MintButton{
+        width: 30rem;
+        font-size: 3rem !important;
+        height: 6rem !important;
+    }
+    .paragraphe{
+        font-size: 3rem !important;
+    }
+    .title{
+        font-size: 4rem !important;
+    }
+
+}
+    
+    
+
+
+.react-numeric-input input {
+    color: rgb(202, 67, 191) !important;
+}
+

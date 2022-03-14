@@ -1,0 +1,26 @@
+/* Navbar css */
+
+.Navbar-socials {
+    height: calc(20px + 3.5vmin);
+    width: calc(20px + 3.5vmin);
+    margin-right: 2.5vh;
+  }
+  
+.Navbar-button {
+align-items: right;
+}
+
+.navBarCss{
+background-color: #AF78EA;
+margin-top: 7rem;
+border-radius: 25px;
+}
+.Navbar-picture-logo { 
+height: calc(3rem);
+width: calc(3rem * 4.4826);
+margin-bottom: 1vh;
+}
+
+.btnNavbar{
+    font-size: 2.5rem;
+}
